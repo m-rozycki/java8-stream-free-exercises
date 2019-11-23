@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c6dc538-fd35-4d73-9fad-7ad277827c34" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +21,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -104,6 +104,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553941914191" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
@@ -132,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WorkShopTest">
+  <component name="RunManager" selected="Gradle.C:/workspace/learnjava/java8-stream-free-exercises">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -145,8 +146,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/workspace/learnjava/java8-stream-free-exercises [clean build]" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
+        <option name="ENABLED" value="false" />
+        <entries />
+      </extension>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="C:/workspace/learnjava/java8-stream-free-exercises" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
+        <option name="ENABLED" value="false" />
+        <entries />
+      </extension>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
+        <option name="ENABLED" value="false" />
+        <entries />
+      </extension>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="WorkShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="klolo-javastream_test" />
+      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
+        <option name="ENABLED" value="false" />
+        <entries />
+      </extension>
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pl.klolo.workshops.logic.*" />
@@ -155,7 +226,9 @@
       </extension>
       <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic" />
       <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.WorkShopTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,23 +268,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkShopTest.shouldReturnManWithSumMoneyOnAccounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="klolo-javastream_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pl.klolo.workshops.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pl.klolo.workshops.logic" />
-      <option name="MAIN_CLASS_NAME" value="pl.klolo.workshops.logic.WorkShopTest" />
-      <option name="METHOD_NAME" value="shouldReturnManWithSumMoneyOnAccounts" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WorkShopTest.shouldReturnWomanWhichAreOlderThan50" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="klolo-javastream_test" />
       <extension name="coverage">
@@ -236,6 +292,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JarApplication">
+      <extension name="com.egoshard.intellij.k8s-runtime-config-plugin">
+        <option name="ENABLED" value="false" />
+        <entries />
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -255,19 +319,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WorkShopTest.shouldReturnManWithSumMoneyOnAccounts" />
+      <item itemvalue="Gradle.C:/workspace/learnjava/java8-stream-free-exercises [clean build]" />
       <item itemvalue="JUnit.WorkShopTest" />
       <item itemvalue="JUnit.WorkShopTest.shouldCountMoneyOnAllAccounts" />
       <item itemvalue="JUnit.WorkShopTest.shouldReturnWomanWhichAreOlderThan50" />
       <item itemvalue="JUnit.WorkShopTest.shouldDivideIntoAdultsAndNonAdults" />
+      <item itemvalue="Gradle.C:/workspace/learnjava/java8-stream-free-exercises" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.C:/workspace/learnjava/java8-stream-free-exercises" />
         <item itemvalue="JUnit.WorkShopTest" />
         <item itemvalue="JUnit.WorkShopTest.shouldDivideIntoAdultsAndNonAdults" />
         <item itemvalue="JUnit.WorkShopTest.shouldReturnWomanWhichAreOlderThan50" />
         <item itemvalue="JUnit.WorkShopTest.shouldCountMoneyOnAllAccounts" />
-        <item itemvalue="JUnit.WorkShopTest.shouldReturnManWithSumMoneyOnAccounts" />
       </list>
     </recent_temporary>
   </component>
@@ -295,38 +360,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 12m 42s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 13m 33s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 14m 18s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 15m 18s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 15m 41s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 16m 23s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 16m 47s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldCountMoneyOnAllAccounts - 2019.03.30 at 11h 17m 09s.xml">
-      <configuration name="WorkShopTest.shouldCountMoneyOnAllAccounts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest_shouldReturnWomanWhichAreOlderThan50 - 2019.03.30 at 11h 20m 24s.xml">
-      <configuration name="WorkShopTest.shouldReturnWomanWhichAreOlderThan50" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WorkShopTest - 2019.03.30 at 11h 24m 17s.xml">
-      <configuration name="WorkShopTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="35054000" />
   </component>
@@ -343,7 +376,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
